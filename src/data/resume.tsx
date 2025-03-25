@@ -129,5 +129,31 @@ export const DATA = {
       video:
         "/task-cli-demo.mp4",
     },
+    {
+      title: "Weather Forecast Web App",
+      href: "",
+      dates: "March 2025 - Present",
+      active: true,
+      description:
+        "This project helps me gain a better understanding of how API's work and how the front-end communicates with the back-end. It also helps me better understand the Flask micro-framework in building web applications.",
+      technologies: [
+        "Python",
+        "Flask",
+        "JavaScript",
+        "HTML",
+        "Jinja",
+        "CSS"
+      ],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/aztec-dev/weather_forecast",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/wip.png",
+      video:
+        "",
+    },
   ],
   } as const;
